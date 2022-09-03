@@ -32,7 +32,7 @@
 clear all; close all; clc;
 %
 % Flux selection:
-numerFluxNum = 2;
+numerFluxNum = 4;
 numerFluxHndl = numerFluxSelection(numerFluxNum);
 %
 % Reconstruction selection:
@@ -55,7 +55,7 @@ beta  = 1.0;
 mx  = 100;
 %
 % Final time:
-finalTime = 1.2;
+finalTime = 0.8;
 % 
 % Edge grid points:
 x = linspace(a,b,mx+1)';  
