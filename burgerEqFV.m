@@ -55,7 +55,7 @@ beta  = 1.0;
 mx  = 100;
 %
 % Final time:
-finalTime = 0.8;
+finalTime = 1.2;
 % 
 % Edge grid points:
 x = linspace(a,b,mx+1)';  
